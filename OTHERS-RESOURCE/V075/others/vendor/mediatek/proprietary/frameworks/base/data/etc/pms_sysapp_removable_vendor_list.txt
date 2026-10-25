@@ -1,0 +1,13 @@
+com.mediatek.vnet
+com.iflytek.inputmethod
+com.hugeland.cdsplus
+com.example.webbrowser
+com.facebook.katana
+com.google.android.apps.youtube.kids
+com.instagram.android
+com.microsoft.teams
+com.tiktok.lite.go
+com.whatsapp
+com.google.android.apps.maps
+us.zoom.videomeetings
+com.google.android.youtube

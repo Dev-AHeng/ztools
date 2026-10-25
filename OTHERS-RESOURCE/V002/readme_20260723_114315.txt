@@ -1,0 +1,39 @@
+﻿基于: 
+\\192.168.16.15\work3\mtk6737_P4\mtk6737_P\zl\zlq5_35m_32\zlq5_35m_32_klm\V001
+
+
+=====================================002 
+http://192.168.16.6/zentao/task-view-8517.html
+ ZLQ5V6.3 MA-D26 6737VTM 1+16（EX2） 康莱米 02版 WIFI版 9.0系统 7寸 带谷歌 带OTA D类功放 型号C-705
+
+
+需求路径：\\192.168.16.55\e\客户需求\ZLQ5\康莱米\02版
+主板配置： ZLQ5V6.3 MA-D26 6737VTM 1+16
+摄像头：030A+2385(GHOA85-DJ-Q8)
+屏：(08)jd9165ba_rs jd9165ba_wsvga_boe_rs_7c
+TP：CX-Q8
+电池：-JY337090 3.7V 3500MAH 12.95WH 2607-----需要调试曲线
+D类功放
+
+
+207-22 10:52:37, 由 谢源 创建。
+207-23 09:18:43, 由 谢源 编辑。 修改了 任务描述 ，
+207-23 09:30:28, 由 吴德伦 指派给 张建亨 。 修改了 指派给 ，旧值为 "wudelun"，新值为 "zhangjianheng"。 修改了 预计剩余 ，旧值为 "0"，新值为 "300"。
+
+
+
+=====================================
+序号	软件需求内容						备注
+1	WiFi版软件，不要拨号功能界面						
+2	内存1+16假写8+512						
+3	电池调试曲线，3000mAh假写3500mAh						
+4	摄像头30+200假写200+500W						
+5	安卓9假写安卓14						
+6	定制开机动画logo						
+7	定制壁纸						待选后发
+8	"预装爱娃娃，不可卸载，以下APP放在主界面Ant/Bathroom/Bedroom/DungBeetle/ GatherFruit*/HomeGarden/iWawaCamera/iWawaDraw/Kitchen/ 
+LearningAnimals/LearningClothes/
+LearningFruits/LearningSportsGoods/LearningVegetables/LivingRoom/Piano/TypingPractice"						
+9	测试界面和老化设置在计算器中进入，测试指令456++=，老化指令654++=						
+10	加入APK：YouTube/Tik Tok/Instagram						等安装测试后发
+11	默认自带谷歌商店及相关生态应用						

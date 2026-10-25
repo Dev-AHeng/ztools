@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="shcy_select_anim_entries">
+        <item>@string/radio_animation_1</item>
+        <item>@string/radio_animation_2</item>
+        <item>@string/radio_animation_3</item>
+        <item>@string/radio_animation_4</item>
+        <item>@string/radio_animation_5</item>
+        <item>@string/radio_animation_6</item>
+        <item>@string/radio_animation_7</item>      
+    </string-array>
+	<!--        <item>@string/rom_640g</item>-->
+	<!--        <item>@string/rom_16g</item>-->	
+    <string-array name="shcy_select_rom_entries">
+        <item>@string/rom_16g</item>
+        <item>@string/rom_32g</item>
+        <item>@string/rom_64g</item>
+        <item>@string/rom_128g</item>
+        <item>@string/rom_256g</item>
+        <item>@string/rom_512g</item>
+		<!--<item>@string/rom_640g</item>-->
+		<item>@string/rom_1024g</item>
+    </string-array>
+	<!--        <item>68</item>-->
+	<!--        <item>>16</item>-->	
+    <string-array name="shcy_select_rom_entrvalues">
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <!--<item>68</item>-->
+        <item>69</item>
+    </string-array>
+    <string-array name="shcy_select_ram_entries">     
+        <item>@string/ram_2g</item>
+        <!--<item>@string/ram_3g</item>-->
+        <item>@string/ram_4g</item>
+        <item>@string/ram_6g</item>
+        <item>@string/ram_8g</item>
+        <item>@string/ram_10g</item>
+        <item>@string/ram_12g</item>
+        <item>@string/ram_16g</item>
+        <item>@string/ram_18g</item>
+        <!--<item>@string/ram_20g</item>
+        <item>@string/ram_22g</item>-->
+		<item>@string/ram_24g</item>						
+    </string-array>
+    <string-array name="shcy_select_ram_entrvalues">
+        <item>2</item>
+        <!--<item>3</item>-->
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>16</item>
+        <item>18</item>
+        <!--<item>20</item>
+        <item>22</item>-->
+		<item>24</item>					        
+    </string-array>
+        <string-array name="shcy_select_single_entries">
+        <item>@string/signal_3G</item>
+        <item>@string/signal_4G</item>
+        <item>@string/signal_5G</item>
+    </string-array>
+    <string-array name="shcy_select_single_entrvalues">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="shcy_select_cam_entries">
+        <item>200W</item>
+        <item>300W</item>		
+        <item>500W</item>
+        <item>800W</item>
+        <item>1300W</item>		
+        <item>1500W</item>		
+        <item>1600W</item>
+        <item>2000W</item>
+        <item>3000W</item>		
+     <!--   <item>2600W</item>     -->        
+    </string-array>
+    <string-array name="shcy_select_cam_entrvalues">
+        <item>2</item>
+        <item>3</item>		
+        <item>5</item>
+        <item>8</item>
+        <item>13</item>		
+        <item>15</item>		
+        <item>16</item>
+        <item>20</item>
+        <item>30</item>		
+      <!--  <item>26</item>     -->   
+    </string-array>
+    <string-array name="shcy_select_devicename_entries">
+        <item>R19</item>
+        <item>R17 Pro</item>
+        <item>V15 Pro</item>
+        <item>F11 Pro</item>
+        <item>P30 lite</item>
+    </string-array>
+    <string-array name="shcy_select_devicename_entrvalues">
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+    </string-array>
+    <string-array name="shcy_select_version_entries">
+        <!--<item>7</item>	
+        <item>8</item>-->
+        <item>9.0</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <!--<item>17</item>-->
+        <item>18</item>
+        <!--<item>19</item>-->
+        <item>20</item>
+        <item>22</item>						
+    </string-array>
+    <string-array name="shcy_select_version_entrvalues">
+        <!--<item>7</item>	
+        <item>8</item>-->
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <!--<item>17</item>-->
+        <item>18</item>
+        <!--<item>19</item>-->
+        <item>20</item>
+        <item>22</item>						
+    </string-array>
+    <string-array name="shcy_select_core_entries">
+        <item>4 Core</item>		
+        <item>6 Core</item>	
+        <item>8 Core</item>
+        <item>10 Core</item>
+        <item>12 Core</item>
+        <item>14 Core</item>
+        <item>16 Core</item>
+        <item>18 Core</item>
+        <item>20 Core</item>				
+    </string-array>
+    <string-array name="shcy_select_core_entrvalues">
+        <item>4</item>		
+        <item>6</item>	
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>				
+    </string-array>
+    <string-array name="shcy_select_battery_entries">
+        <item>4000 mAh</item>	
+        <item>5000 mAh</item>
+        <item>6000 mAh</item>
+        <item>7000 mAh</item>
+        <item>8000 mAh</item>
+        <item>9000 mAh</item>		
+        <item>10000 mAh</item>
+        <item>15000 mAh</item>
+        <item>20000 mAh</item>
+    </string-array>
+    <string-array name="shcy_select_battery_entrvalues">
+    	<item>4</item>	
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>		
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>		
+    </string-array>
+    <string-array name="shcy_select_inches_entries">
+        <item>10.1 inches</item>
+        <item>11.6 inches</item>
+        <item>12.0 inches</item>
+        <item>15.0 inches</item>
+    </string-array>
+    <string-array name="shcy_select_inches_entrvalues">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>15</item>
+    </string-array>
+    <!--        <item>1920*1280</item>-->
+    <string-array name="shcy_select_screen_entries">
+        <item>800*1280</item>		
+        <item>1960*1080</item>
+        <item>2560*1600</item>
+        <item>1920*1200</item>	
+        <item>3440*1040</item>
+        <item>2048*1536</item>			
+    </string-array>
+    <!--        <item>2</item>-->
+    <string-array name="shcy_select_screen_entrvalues">
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>			
+    </string-array>
+    <string-array name="shcy_select_cpu_entries">
+        <!--<item>MT6582</item>
+        <item>MT6595</item>-->
+        <item>MT6735</item>
+        <item>MT6753</item>
+        <item>MT6762</item>
+        <item>MT6797</item>
+        <!--<item>MT6763</item>-->
+        <item>MT6580</item>
+        <item>MT6755</item>	
+        <item>MT6795</item>		
+        <item>MT6750</item>
+        <item>MT6752</item>
+        <item>Snapdragon 860</item>		
+        <item>Snapdragon 870</item>
+        <item>Snapdragon 888</item>			
+    </string-array>
+    <string-array name="shcy_select_cpu_entrvalues">
+        <!--<item>1</item>
+        <item>2</item>-->
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <!--<item>7</item>-->
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>			
+    </string-array>
+    <string-array name="shcy_select_imei_entries">
+        <item>DoubuleSim_imei</item>
+        <item>SignalSim_imei</item>
+    </string-array>
+    <string-array name="shcy_select_imei_entrvalues">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+</resources>

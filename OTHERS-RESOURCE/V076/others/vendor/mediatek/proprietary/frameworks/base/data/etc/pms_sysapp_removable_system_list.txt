@@ -1,0 +1,5 @@
+com.android.quicksearchbox
+com.android.dreams.basic
+com.android.musicfx
+com.android.email
+com.android.exchange

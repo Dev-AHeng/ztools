@@ -1,0 +1,22 @@
+android_app {
+    name: "SystemSwitchLogo",
+
+    srcs: ["src/**/*.java"],
+
+    platform_apis: true,
+    proprietary: false,
+    owner: "mtk",
+    certificate: "platform",
+    privileged: true,
+
+    libs: [
+        "telephony-common",
+        "mediatek-telephony-base",
+        "mediatek-telephony-common",
+    ],
+
+    static_libs: [
+        "vendor.mediatek.hardware.nvram-V1.0-java",
+        "vendor.mediatek.hardware.netdagent-V1.0-java",
+    ],
+}

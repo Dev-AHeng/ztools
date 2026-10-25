@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_anim_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boot_shut_animation"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_anim_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_rom_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rom_memory"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_rom_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_ram_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ram_memory"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_ram_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_signal_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signal"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_signal_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_front_cam_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cam_front"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_front_cam_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_back_cam_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cam_back"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_back_cam_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>	    
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_device_name_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_name"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_device_name_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_version_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/android_version"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_version_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_core_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/android_core"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_core_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_cpu_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/android_cpu"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_cpu_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_battery_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/android_battery"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_battery_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_inches_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/android_inches"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_inches_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_screen_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/android_screen"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_screen_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/select_imei_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/android_imei"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.shcy.select.FlowRadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_imei_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/edit_device_name_contain" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_device_name"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@+id/shcy_model_name_edit" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:layout_weight="1" android:layout_marginStart="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Space android:layout_width="match_parent" android:layout_height="20dp"/>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/boder" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Button android:gravity="center" android:id="@+id/reboot" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/btn_compelete"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
